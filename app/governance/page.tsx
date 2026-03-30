@@ -16,21 +16,28 @@ export default function Page() {
   return (
     <>
       <nav>
-  <a href="/" className="nav-wordmark">
-    <div className="nav-shield">
-      <svg viewBox="0 0 24 24" fill="none">
-        <path d="M12 2L4 6.5V11.5C4 16 7.6 20.1 12 21.5C16.4 20.1 20 16 20 11.5V6.5L12 2Z" stroke="#1aada7" strokeWidth="1.6" strokeLinejoin="round"/>
-        <path d="M9 12L11 14.5L15.5 9.5" stroke="#E8922A" strokeWidth="1.6" strokeLinecap="round" strokeLinejoin="round"/>
-      </svg>
-    </div>
-    Fresh Eye Foundation
-  </a>
-  <div className="nav-right">
-    <a href="/">Home</a>
-    <a href="/privacy">Privacy Policy</a>
-    <a href="#contact">Contact</a>
-  </div>
-</nav>
+        <a href="/" className="nav-wordmark">
+          <div className="nav-shield">
+            <svg viewBox="0 0 24 24" fill="none">
+              <path d="M12 2L4 6.5V11.5C4 16 7.6 20.1 12 21.5C16.4 20.1 20 16 20 11.5V6.5L12 2Z" stroke="#1aada7" strokeWidth="1.6" strokeLinejoin="round"/>
+              <path d="M9 12L11 14.5L15.5 9.5" stroke="#E8922A" strokeWidth="1.6" strokeLinecap="round" strokeLinejoin="round"/>
+            </svg>
+          </div>
+          Fresh Eye Foundation
+        </a>
+        <div className="nav-center">
+          <a href="/#manifesto">Our Purpose</a>
+          <a href="/#model">The Model</a>
+          <a href="/#fields">Fields of Work</a>
+          <a href="/#initiative">CatalystBox</a>
+          <a href="/#about">About</a>
+          <a href="#contact">Contact</a>
+        </div>
+        <div className="nav-right">
+          <span className="nav-tag">India</span>
+          <a href="/#partner" className="nav-contact">Partner &rarr;</a>
+        </div>
+      </nav>
 
 <header className="page-header">
   <div className="page-header-texture"></div>
@@ -44,7 +51,7 @@ export default function Page() {
     <p className="page-sub">Fresh Eye Foundation collects data from people inside public systems to generate intelligence for the institutions that serve them. <strong>Anonymity is not a feature of how we operate — it is the architecture.</strong> This charter documents what we collect, what we never collect, and the principles that govern every decision in between.</p>
     <div className="page-meta-row">
       <div><div className="meta-label">Version</div><div className="meta-value">1.0</div></div>
-      <div><div className="meta-label">Effective</div><div className="meta-value">2024</div></div>
+      <div><div className="meta-label">Effective</div><div className="meta-value">2026</div></div>
       <div><div className="meta-label">Governing Law</div><div className="meta-value">DPDP Act 2023 · IT Act 2000</div></div>
       <div><div className="meta-label">Applies To</div><div className="meta-value">CatalystBox · All Future FEF Instruments</div></div>
     </div>
@@ -254,21 +261,29 @@ export default function Page() {
 </div>
 
 <footer id="contact">
-  <div className="footer-row">
-    <div className="footer-wordmark"><strong>Fresh Eye Foundation</strong> &nbsp;·&nbsp; Intelligence Infrastructure for India's Public Systems</div>
-    <nav className="footer-links">
-      <a href="/">Home</a>
-      <a href="/#fields">Fields of Work</a>
-      <a href="https://catalystbox.in" target="_blank">CatalystBox</a>
-      <a href="/privacy">Privacy Policy</a>
-      <a href="#contact">Contact</a>
-    </nav>
-  </div>
-  <div className="footer-bottom">
-    <p>© 2024 Fresh Eye Foundation · NGO Registered · Uttar Pradesh, India</p>
-    <p>Data Governance Charter v1.0 · DPDP Act 2023</p>
-  </div>
-</footer>
+        <div className="footer-row" style={{alignItems: "flex-start"}}>
+          <div>
+            <div className="footer-wordmark" style={{marginBottom: "1rem"}}><strong>Fresh Eye Foundation</strong> &nbsp;&middot;&nbsp; Intelligence Infrastructure for India&apos;s Public Systems</div>
+            <div style={{fontSize: "0.85rem", color: "rgba(255,255,255,0.6)", marginBottom: "0.2rem"}}>For partnerships and general inquiries:</div>
+            <a href="mailto:support@fresheyefoundation.com" style={{fontSize: "1.05rem", color: "var(--teal-light)", fontWeight: 600, textDecoration: "none", transition: "color 0.2s"}}>support@fresheyefoundation.com</a>
+          </div>
+          <nav className="footer-nav">
+            <a href="/#manifesto">Purpose</a>
+            <a href="/#model">Model</a>
+            <a href="/#fields">Fields</a>
+            <a href="https://catalystbox.in" target="_blank" rel="noreferrer">CatalystBox</a>
+            <a href="/#about">About</a>
+          </nav>
+        </div>
+        <div className="footer-bottom">
+          <p>&copy; 2026 Fresh Eye Foundation &middot; NGO Registered &middot; Uttar Pradesh, India</p>
+          <div className="footer-legal">
+            <a href="/privacy">Privacy Policy</a>
+            <a href="/governance">Data Governance</a>
+            <a href="https://catalystbox.in" target="_blank" rel="noreferrer">catalystbox.in &rarr;</a>
+          </div>
+        </div>
+      </footer>
     </>
   );
 }

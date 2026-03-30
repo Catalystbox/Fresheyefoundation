@@ -23,7 +23,7 @@ export default function Home() {
   return (
     <>
       <nav>
-        <a href="#" className="nav-wordmark">
+        <a href="/" className="nav-wordmark">
           <div className="nav-shield">
             <svg viewBox="0 0 24 24" fill="none">
               <path d="M12 2L4 6.5V11.5C4 16 7.6 20.1 12 21.5C16.4 20.1 20 16 20 11.5V6.5L12 2Z" stroke="#1aada7" strokeWidth="1.6" strokeLinejoin="round"/>
@@ -33,16 +33,16 @@ export default function Home() {
           Fresh Eye Foundation
         </a>
         <div className="nav-center">
-          <a href="#manifesto">Our Purpose</a>
-          <a href="#model">The Model</a>
-          <a href="#fields">Fields of Work</a>
-          <a href="#initiative">CatalystBox</a>
-          <a href="#about">About</a>
+          <a href="/#manifesto">Our Purpose</a>
+          <a href="/#model">The Model</a>
+          <a href="/#fields">Fields of Work</a>
+          <a href="/#initiative">CatalystBox</a>
+          <a href="/#about">About</a>
           <a href="#contact">Contact</a>
         </div>
         <div className="nav-right">
           <span className="nav-tag">India</span>
-          <a href="#partner" className="nav-contact">Partner &rarr;</a>
+          <a href="/#partner" className="nav-contact">Partner &rarr;</a>
         </div>
       </nav>
 
@@ -190,7 +190,7 @@ export default function Home() {
                 the same infrastructure will expand to India&apos;s <strong style={{color: "rgba(255,255,255,0.85)"}}>42,000+ colleges and universities</strong> —
                 capturing student and faculty voice at the higher education level, where the feedback gap is equally severe.
               </div>
-              <a href="#initiative" className="field-instrument">
+              <a href="/#initiative" className="field-instrument">
                 Instrument: CatalystBox
                 <svg viewBox="0 0 12 12" fill="none"><path d="M2 6h8M7 3l3 3-3 3" stroke="currentColor" strokeWidth="1.3" strokeLinecap="round" strokeLinejoin="round"/></svg>
               </a>
@@ -654,15 +654,15 @@ export default function Home() {
             <a href="mailto:support@fresheyefoundation.com" style={{fontSize: "1.05rem", color: "var(--teal-light)", fontWeight: 600, textDecoration: "none", transition: "color 0.2s"}}>support@fresheyefoundation.com</a>
           </div>
           <nav className="footer-nav">
-            <a href="#manifesto">Purpose</a>
-            <a href="#model">Model</a>
-            <a href="#fields">Fields</a>
+            <a href="/#manifesto">Purpose</a>
+            <a href="/#model">Model</a>
+            <a href="/#fields">Fields</a>
             <a href="https://catalystbox.in" target="_blank" rel="noreferrer">CatalystBox</a>
-            <a href="#about">About</a>
+            <a href="/#about">About</a>
           </nav>
         </div>
         <div className="footer-bottom">
-          <p>&copy; 2024 Fresh Eye Foundation &middot; NGO Registered &middot; Uttar Pradesh, India</p>
+          <p>&copy; 2026 Fresh Eye Foundation &middot; NGO Registered &middot; Uttar Pradesh, India</p>
           <div className="footer-legal">
             <a href="/privacy">Privacy Policy</a>
             <a href="/governance">Data Governance</a>
