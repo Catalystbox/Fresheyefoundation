@@ -38,6 +38,7 @@ export default function Home() {
           <a href="#fields">Fields of Work</a>
           <a href="#initiative">CatalystBox</a>
           <a href="#about">About</a>
+          <a href="mailto:support@fresheyefoundation.com">Contact</a>
         </div>
         <div className="nav-right">
           <span className="nav-tag">India</span>
@@ -539,7 +540,7 @@ export default function Home() {
           <div className="facts-grid reveal d1">
             <div className="fact-cell">
               <div className="fc-key">Legal structure</div>
-              <div className="fc-val">One Person Company &middot; Companies Act, India</div>
+              <div className="fc-val">NGO (Section 8) &middot; CatalystBox applies as an OPC</div>
             </div>
             <div className="fact-cell">
               <div className="fc-key">Headquartered</div>
@@ -658,10 +659,10 @@ export default function Home() {
           </nav>
         </div>
         <div className="footer-bottom">
-          <p>&copy; 2024 Fresh Eye Foundation &middot; OPC Registered &middot; Uttar Pradesh, India</p>
+          <p>&copy; 2024 Fresh Eye Foundation &middot; NGO Registered &middot; Uttar Pradesh, India</p>
           <div className="footer-legal">
-            <a href="#">Privacy Policy</a>
-            <a href="#">Data Governance</a>
+            <a href="/privacy">Privacy Policy</a>
+            <a href="/governance">Data Governance</a>
             <a href="https://catalystbox.in" target="_blank" rel="noreferrer">catalystbox.in &rarr;</a>
           </div>
         </div>
