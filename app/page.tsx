@@ -570,6 +570,14 @@ export default function Home() {
               <div className="fc-key">Governance</div>
               <div className="fc-val">Independent Advisory Board &middot; Educators, Psychologists, Policy Experts</div>
             </div>
+            <div className="fact-cell">
+              <div className="fc-key">Founder</div>
+              <div className="fc-val">Yatesh Srivastava</div>
+            </div>
+            <div className="fact-cell">
+              <div className="fc-key">Registrations</div>
+              <div className="fc-val">12A &amp; 80G Registered</div>
+            </div>
           </div>
         </div>
       </section>
