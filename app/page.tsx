@@ -585,28 +585,28 @@ export default function Home() {
               resources, or relationships to help us get there.
             </p>
             <div className="partner-actions reveal d3">
-              <a href="mailto:hello@fresheyefoundation.com" className="partner-action">
+              <a href="mailto:support@fresheyefoundation.com" className="partner-action">
                 <div>
                   <div className="pa-title">Education Boards &amp; State Departments</div>
                   <div className="pa-sub">Pilot CBI data collection with affiliated schools</div>
                 </div>
                 <span className="pa-arrow">&rarr;</span>
               </a>
-              <a href="mailto:hello@fresheyefoundation.com" className="partner-action">
+              <a href="mailto:support@fresheyefoundation.com" className="partner-action">
                 <div>
                   <div className="pa-title">CSR Foundations &amp; NGO Funders</div>
                   <div className="pa-sub">Fund infrastructure, not a project. MCA Schedule VII aligned.</div>
                 </div>
                 <span className="pa-arrow">&rarr;</span>
               </a>
-              <a href="mailto:hello@fresheyefoundation.com" className="partner-action">
+              <a href="mailto:support@fresheyefoundation.com" className="partner-action">
                 <div>
                   <div className="pa-title">Research Institutions</div>
                   <div className="pa-sub">Access anonymised school intelligence for systemic research</div>
                 </div>
                 <span className="pa-arrow">&rarr;</span>
               </a>
-              <a href="mailto:hello@fresheyefoundation.com" className="partner-action">
+              <a href="mailto:support@fresheyefoundation.com" className="partner-action">
                 <div>
                   <div className="pa-title">Technology &amp; AI Partners</div>
                   <div className="pa-sub">Multilingual NLP, responsible AI for minors, scale architecture</div>
@@ -654,7 +654,7 @@ export default function Home() {
             <a href="#fields">Fields</a>
             <a href="https://catalystbox.in" target="_blank" rel="noreferrer">CatalystBox</a>
             <a href="#about">About</a>
-            <a href="mailto:hello@fresheyefoundation.com">Contact</a>
+            <a href="mailto:support@fresheyefoundation.com">Contact</a>
           </nav>
         </div>
         <div className="footer-bottom">
