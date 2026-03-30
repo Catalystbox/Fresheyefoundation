@@ -365,6 +365,54 @@ export default function Home() {
           </div>
         </div>
 
+        <div className="founding-facts">
+          <div className="reveal">
+            <div className="about-aside-label">Organisation details</div>
+          </div>
+          <div className="facts-grid reveal d1">
+            <div className="fact-cell">
+              <div className="fc-key">Legal structure</div>
+              <div className="fc-val">NGO (Section 8) &middot; CatalystBox applies as an OPC</div>
+            </div>
+            <div className="fact-cell">
+              <div className="fc-key">Headquartered</div>
+              <div className="fc-val">Uttar Pradesh, India</div>
+            </div>
+            <div className="fact-cell">
+              <div className="fc-key">Organisation type</div>
+              <div className="fc-val">Civic Intelligence Infrastructure</div>
+            </div>
+            <div className="fact-cell">
+              <div className="fc-key">First domain</div>
+              <div className="fc-val">Education Intelligence</div>
+            </div>
+            <div className="fact-cell">
+              <div className="fc-key">Flagship instrument</div>
+              <div className="fc-val">CatalystBox — catalystbox.in</div>
+            </div>
+            <div className="fact-cell">
+              <div className="fc-key">Policy alignment</div>
+              <div className="fc-val">NEP 2020 &middot; SDG 4 &middot; MCA Schedule VII</div>
+            </div>
+            <div className="fact-cell">
+              <div className="fc-key">Privacy standard</div>
+              <div className="fc-val">DPDP Act 2023 &middot; Zero personal identifiers</div>
+            </div>
+            <div className="fact-cell">
+              <div className="fc-key">Governance</div>
+              <div className="fc-val">Independent Advisory Board &middot; Educators, Psychologists, Policy Experts</div>
+            </div>
+            <div className="fact-cell">
+              <div className="fc-key">Founder</div>
+              <div className="fc-val">Yatesh Srivastava</div>
+            </div>
+            <div className="fact-cell">
+              <div className="fc-key">Registrations</div>
+              <div className="fc-val">12A &amp; 80G Registered</div>
+            </div>
+          </div>
+        </div>
+
         <div className="about-origin">
           <div className="reveal">
             <div className="about-aside-label">The origin</div>
@@ -533,53 +581,7 @@ export default function Home() {
           </div>
         </div>
 
-        <div className="founding-facts">
-          <div className="reveal">
-            <div className="about-aside-label">Organisation details</div>
-          </div>
-          <div className="facts-grid reveal d1">
-            <div className="fact-cell">
-              <div className="fc-key">Legal structure</div>
-              <div className="fc-val">NGO (Section 8) &middot; CatalystBox applies as an OPC</div>
-            </div>
-            <div className="fact-cell">
-              <div className="fc-key">Headquartered</div>
-              <div className="fc-val">Uttar Pradesh, India</div>
-            </div>
-            <div className="fact-cell">
-              <div className="fc-key">Organisation type</div>
-              <div className="fc-val">Civic Intelligence Infrastructure</div>
-            </div>
-            <div className="fact-cell">
-              <div className="fc-key">First domain</div>
-              <div className="fc-val">Education Intelligence</div>
-            </div>
-            <div className="fact-cell">
-              <div className="fc-key">Flagship instrument</div>
-              <div className="fc-val">CatalystBox — catalystbox.in</div>
-            </div>
-            <div className="fact-cell">
-              <div className="fc-key">Policy alignment</div>
-              <div className="fc-val">NEP 2020 &middot; SDG 4 &middot; MCA Schedule VII</div>
-            </div>
-            <div className="fact-cell">
-              <div className="fc-key">Privacy standard</div>
-              <div className="fc-val">DPDP Act 2023 &middot; Zero personal identifiers</div>
-            </div>
-            <div className="fact-cell">
-              <div className="fc-key">Governance</div>
-              <div className="fc-val">Independent Advisory Board &middot; Educators, Psychologists, Policy Experts</div>
-            </div>
-            <div className="fact-cell">
-              <div className="fc-key">Founder</div>
-              <div className="fc-val">Yatesh Srivastava</div>
-            </div>
-            <div className="fact-cell">
-              <div className="fc-key">Registrations</div>
-              <div className="fc-val">12A &amp; 80G Registered</div>
-            </div>
-          </div>
-        </div>
+        
       </section>
 
       {/* PARTNER */}
