@@ -38,7 +38,7 @@ export default function Home() {
           <a href="#fields">Fields of Work</a>
           <a href="#initiative">CatalystBox</a>
           <a href="#about">About</a>
-          <a href="mailto:support@fresheyefoundation.com">Contact</a>
+          <a href="#contact">Contact</a>
         </div>
         <div className="nav-right">
           <span className="nav-tag">India</span>
@@ -646,16 +646,19 @@ export default function Home() {
       </section>
 
       {/* FOOTER */}
-      <footer>
-        <div className="footer-row">
-          <div className="footer-wordmark"><strong>Fresh Eye Foundation</strong> &nbsp;&middot;&nbsp; Intelligence Infrastructure for India&apos;s Public Systems</div>
+      <footer id="contact">
+        <div className="footer-row" style={{alignItems: "flex-start"}}>
+          <div>
+            <div className="footer-wordmark" style={{marginBottom: "1rem"}}><strong>Fresh Eye Foundation</strong> &nbsp;&middot;&nbsp; Intelligence Infrastructure for India&apos;s Public Systems</div>
+            <div style={{fontSize: "0.85rem", color: "rgba(255,255,255,0.6)", marginBottom: "0.2rem"}}>For partnerships and general inquiries:</div>
+            <a href="mailto:support@fresheyefoundation.com" style={{fontSize: "1.05rem", color: "var(--teal-light)", fontWeight: 600, textDecoration: "none", transition: "color 0.2s"}}>support@fresheyefoundation.com</a>
+          </div>
           <nav className="footer-nav">
             <a href="#manifesto">Purpose</a>
             <a href="#model">Model</a>
             <a href="#fields">Fields</a>
             <a href="https://catalystbox.in" target="_blank" rel="noreferrer">CatalystBox</a>
             <a href="#about">About</a>
-            <a href="mailto:support@fresheyefoundation.com">Contact</a>
           </nav>
         </div>
         <div className="footer-bottom">
