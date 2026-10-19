@@ -37,6 +37,7 @@ export default function Home() {
           <a href="/#model">How We Support</a>
           <a href="/#fields">Areas of Work</a>
           <a href="/#initiative">CatalystBox</a>
+          <a href="/#joir">Next: Joir</a>
           <a href="/#about">About</a>
           <a href="#contact">Contact</a>
         </div>
@@ -204,10 +205,15 @@ export default function Home() {
               <div className="field-name">Care, prevention and<br />family wellbeing</div>
               <div className="field-desc">
                 Products and services that make care easier to find, afford and trust — from community health delivery to everyday wellbeing and family welfare.
+                Next up: <strong style={{color: "var(--ink)"}}>Joir</strong>, a relationship and marriage app supported by the Foundation.
               </div>
+              <a href="/#joir" className="field-instrument" style={{color: "var(--teal)"}}>
+                Next project: Joir
+                <svg viewBox="0 0 12 12" fill="none"><path d="M2 6h8M7 3l3 3-3 3" stroke="currentColor" strokeWidth="1.3" strokeLinecap="round" strokeLinejoin="round"/></svg>
+              </a>
             </div>
             <div className="field-status">
-              <span className="status-pill status-building">Exploring</span>
+              <span className="status-pill status-building">Next &middot; Joir</span>
             </div>
           </div>
 
@@ -381,6 +387,77 @@ export default function Home() {
                   <div className="pi-label">Future Readiness</div>
                   <div className="pi-track"><div className="pi-fill" style={{width: "20%", background: "#c9a04a"}}></div></div>
                   <div className="pi-pct" style={{color: "#c9a04a"}}>20%</div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* NEXT PROJECT: JOIR */}
+      <section id="joir">
+        <div className="initiative-grid">
+          <div>
+            <div className="initiative-label-row reveal">
+              <span className="initiative-num-badge">Next project</span>
+              <span className="initiative-type">Relationships &amp; Family Welfare</span>
+            </div>
+            <h2 className="initiative-h2 reveal d1">
+              Joir — finding the right partner by what you <em>bring</em> and what you <em>need</em>
+            </h2>
+            <p className="initiative-body reveal d2">
+              Fresh Eye Foundation is supporting <strong>Joir</strong>, a dating and marriage app for people who are
+              looking for a life partner. Instead of swiping on photos, each person says two honest things:
+              what they bring to a relationship, and what they need from a partner.
+            </p>
+            <p className="initiative-body reveal d2">
+              Joir matches on those answers, so people meet others whose strengths and needs genuinely fit —
+              a calmer, more intentional route to a lasting relationship. Its promise is simple:
+              <strong> &quot;You just need the One!&quot;</strong>
+            </p>
+            <p className="initiative-body reveal d3">
+              Strong families begin with relationships built on honesty and fit. We support Joir because most
+              apps in this space reward attention, not compatibility. Joir is being designed around the
+              Foundation&apos;s privacy standard — collect only what the product needs, with the DPDP Act 2023 as the floor.
+            </p>
+            <p className="initiative-body reveal d3">
+              <strong>Joir is in early design.</strong> We will announce what is live when it is live, and not before.
+            </p>
+            <a href="mailto:support@fresheyefoundation.com?subject=Joir" className="initiative-cta reveal d3">
+              Talk to us about Joir
+              <svg width="14" height="14" viewBox="0 0 14 14" fill="none"><path d="M2 7h10M8 3l4 4-4 4" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round"/></svg>
+            </a>
+          </div>
+
+          <div className="initiative-panel reveal d2">
+            <div className="panel-header">
+              <div className="panel-logo">Jo<span>ir</span></div>
+              <div className="panel-tag">In design &middot; India</div>
+            </div>
+            <div className="panel-body">
+              <div className="panel-metric-grid">
+                <div className="panel-metric">
+                  <div className="pi-title" style={{marginBottom: "0.5rem"}}>What you bring</div>
+                  <div className="pm-label" style={{fontSize: "0.85rem", lineHeight: 1.6}}>Your values, strengths and way of life — stated up front.</div>
+                </div>
+                <div className="panel-metric">
+                  <div className="pi-title" style={{marginBottom: "0.5rem"}}>What you need</div>
+                  <div className="pm-label" style={{fontSize: "0.85rem", lineHeight: 1.6}}>What matters in a partner — stated just as plainly.</div>
+                </div>
+              </div>
+              <div>
+                <div className="pi-title">How Joir works</div>
+                <div className="pi-row">
+                  <div className="pi-pct" style={{textAlign: "left"}}>01</div>
+                  <div className="pi-label" style={{minWidth: 0}}>Say what you bring and what you need</div>
+                </div>
+                <div className="pi-row">
+                  <div className="pi-pct" style={{textAlign: "left", color: "var(--amber)"}}>02</div>
+                  <div className="pi-label" style={{minWidth: 0}}>Get matches ranked by genuine fit</div>
+                </div>
+                <div className="pi-row">
+                  <div className="pi-pct" style={{textAlign: "left", color: "#7ec8c5"}}>03</div>
+                  <div className="pi-label" style={{minWidth: 0}}>Take it forward, at your own pace</div>
                 </div>
               </div>
             </div>
@@ -567,9 +644,10 @@ export default function Home() {
             </div>
             <div className="path-card reveal d1">
               <div className="path-phase">Phase II — Next</div>
-              <div className="path-title">The rest of our charter</div>
+              <div className="path-title">Next: Joir, then the rest of our charter</div>
               <div className="path-desc">
-                Health, skills and livelihood, children, youth and women, human rights and civic life,
+                Next up is Joir, a relationship and marriage app now in design. After it:
+                health, skills and livelihood, children, youth and women, human rights and civic life,
                 environment and agriculture, art and culture, disaster management. For each, we decide case by case whether to build our own initiative,
                 support an existing one, or partner with the people already doing the work. Nothing is announced
                 as live until it is.
