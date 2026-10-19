@@ -109,7 +109,7 @@ export default function Page() {
       <span className="section-anchor" id="who"></span>
       <span className="doc-section-kicker">Section 01</span>
       <h2>Who We Are</h2>
-      <p><strong>Fresh Eye Foundation</strong> is a civic intelligence organisation registered as a One Person Company under the Companies Act of India, headquartered in Uttar Pradesh. We build anonymous, AI-powered data intelligence infrastructure for India's public systems. Our first instrument is <strong>CatalystBox</strong> (catalystbox.in) — a national education feedback and intelligence platform.</p>
+      <p><strong>Fresh Eye Foundation</strong> is a non-profit Section 8 company registered under the Companies Act, 2013, headquartered in Lucknow, Uttar Pradesh. We build and support products and services that improve lives. Our first initiative is <strong>CatalystBox</strong> (catalystbox.in) — a national education feedback and intelligence platform.</p>
       <p>For the purposes of the Digital Personal Data Protection Act 2023, Fresh Eye Foundation is the <strong>Data Fiduciary</strong> for all data collected through its instruments and platforms. Privacy contact: <a href="#contact" style={{"color":"var(--teal)","fontWeight":"500"}}>support@fresheyefoundation.com</a>.</p>
     </div>
 
@@ -299,7 +299,7 @@ export default function Page() {
 <footer id="contact">
         <div className="footer-row" style={{alignItems: "flex-start"}}>
           <div>
-            <div className="footer-wordmark" style={{marginBottom: "1rem"}}><strong>Fresh Eye Foundation</strong> &nbsp;&middot;&nbsp; Intelligence Infrastructure for India&apos;s Public Systems</div>
+            <div className="footer-wordmark" style={{marginBottom: "1rem"}}><strong>Fresh Eye Foundation</strong> &nbsp;&middot;&nbsp; Supporting Products &amp; Services That Improve Lives</div>
             <div style={{fontSize: "0.85rem", color: "rgba(255,255,255,0.6)", marginBottom: "0.2rem"}}>For partnerships and general inquiries:</div>
             <a href="mailto:support@fresheyefoundation.com" style={{fontSize: "1.05rem", color: "var(--teal-light)", fontWeight: 600, textDecoration: "none", transition: "color 0.2s"}}>support@fresheyefoundation.com</a>
           </div>

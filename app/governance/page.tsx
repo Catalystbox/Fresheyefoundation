@@ -48,7 +48,7 @@ export default function Page() {
       <span className="overline-text">Fresh Eye Foundation · Legal &amp; Governance</span>
     </div>
     <h1 className="page-title">Data Governance <em>Charter</em></h1>
-    <p className="page-sub">Fresh Eye Foundation collects data from people inside public systems to generate intelligence for the institutions that serve them. <strong>Anonymity is not a feature of how we operate — it is the architecture.</strong> This charter documents what we collect, what we never collect, and the principles that govern every decision in between.</p>
+    <p className="page-sub">Through CatalystBox, Fresh Eye Foundation collects data from people inside public systems to generate intelligence for the institutions that serve them. <strong>Anonymity is not a feature of how we operate — it is the architecture.</strong> This charter documents what we collect, what we never collect, and the principles that govern every decision in between.</p>
     <div className="page-meta-row">
       <div><div className="meta-label">Version</div><div className="meta-value">1.0</div></div>
       <div><div className="meta-label">Effective</div><div className="meta-value">2026</div></div>
@@ -263,7 +263,7 @@ export default function Page() {
 <footer id="contact">
         <div className="footer-row" style={{alignItems: "flex-start"}}>
           <div>
-            <div className="footer-wordmark" style={{marginBottom: "1rem"}}><strong>Fresh Eye Foundation</strong> &nbsp;&middot;&nbsp; Intelligence Infrastructure for India&apos;s Public Systems</div>
+            <div className="footer-wordmark" style={{marginBottom: "1rem"}}><strong>Fresh Eye Foundation</strong> &nbsp;&middot;&nbsp; Supporting Products &amp; Services That Improve Lives</div>
             <div style={{fontSize: "0.85rem", color: "rgba(255,255,255,0.6)", marginBottom: "0.2rem"}}>For partnerships and general inquiries:</div>
             <a href="mailto:support@fresheyefoundation.com" style={{fontSize: "1.05rem", color: "var(--teal-light)", fontWeight: 600, textDecoration: "none", transition: "color 0.2s"}}>support@fresheyefoundation.com</a>
           </div>
