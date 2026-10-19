@@ -109,7 +109,7 @@ export default function Page() {
       <span className="section-anchor" id="who"></span>
       <span className="doc-section-kicker">Section 01</span>
       <h2>Who We Are</h2>
-      <p><strong>Fresh Eye Foundation</strong> is a non-profit Section 8 company registered under the Companies Act, 2013, headquartered in Lucknow, Uttar Pradesh. We build and support products and services that improve lives. Our first initiative is <strong>CatalystBox</strong> (catalystbox.in) — a national education feedback and intelligence platform.</p>
+      <p><strong>Fresh Eye Foundation</strong> is a non-profit Section 8 company registered under the Companies Act, 2013, headquartered in Lucknow, Uttar Pradesh. We build and support products and services that improve lives, including supporting <strong>CatalystBox</strong> (catalystbox.in) — a national education feedback and intelligence platform.</p>
       <p>For the purposes of the Digital Personal Data Protection Act 2023, Fresh Eye Foundation is the <strong>Data Fiduciary</strong> for all data collected through its instruments and platforms. Privacy contact: <a href="#contact" style={{"color":"var(--teal)","fontWeight":"500"}}>support@fresheyefoundation.com</a>.</p>
     </div>
 

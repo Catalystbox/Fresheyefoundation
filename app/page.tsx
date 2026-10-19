@@ -136,8 +136,8 @@ export default function Home() {
           <div className="model-step reveal d1">
             <div className="step-seq">Way 02</div>
             <div className="step-icon-line"></div>
-            <div className="step-title">Build our own</div>
-            <div className="step-body">Where no one else is solving it, we build. CatalystBox, our education feedback platform, is the first initiative to come out of this approach.</div>
+            <div className="step-title">Build &amp; support</div>
+            <div className="step-body">Where impact is needed, we step in. CatalystBox, the education feedback platform supported by the Foundation, is our first initiative.</div>
           </div>
           <div className="model-step reveal d2">
             <div className="step-seq">Way 03</div>
@@ -309,7 +309,7 @@ export default function Home() {
               CatalystBox — the nation&apos;s first <em>education feedback infrastructure</em>
             </h2>
             <p className="initiative-body reveal d2">
-              CatalystBox is the first product to come out of Fresh Eye Foundation — a
+              Fresh Eye Foundation supports <strong>CatalystBox</strong> — a
               <strong> national education intelligence platform</strong> collecting anonymous QR-based
               feedback from students, teachers, and parents, processed through an AI analytics engine
               to generate the CatalystBox Benchmark Index.
@@ -431,8 +431,8 @@ export default function Home() {
               <div className="fc-val">Education, health, skills, environment &amp; more &middot; Education first</div>
             </div>
             <div className="fact-cell">
-              <div className="fc-key">First initiative</div>
-              <div className="fc-val">CatalystBox — catalystbox.in &middot; run by CatalystBox OPC Private Limited, a separate company</div>
+              <div className="fc-key">Supported initiative</div>
+              <div className="fc-val">Supports CatalystBox &mdash; catalystbox.in</div>
             </div>
             <div className="fact-cell">
               <div className="fc-key">Policy alignment</div>
