@@ -115,6 +115,7 @@ nav{position:fixed;top:0;left:0;right:0;z-index:100;background:var(--ink);border
 
 /* INITIATIVE */
 #initiative{background:var(--paper);padding:9rem 5vw;border-bottom:1px solid var(--rule)}
+#joir{background:var(--cream);padding:9rem 5vw;border-bottom:1px solid var(--rule)}
 .initiative-grid{display:grid;grid-template-columns:1.1fr 1fr;gap:7rem;align-items:start}
 .initiative-label-row{display:flex;align-items:center;gap:1rem;margin-bottom:2rem}
 .initiative-num-badge{font-family:var(--font-head);font-weight:800;font-size:0.72rem;letter-spacing:0.1em;text-transform:uppercase;background:var(--teal);color:var(--white);padding:0.3rem 0.75rem;border-radius:4px}
@@ -284,7 +285,7 @@ footer{background:#070a10;padding:4rem 5vw 2.5rem;border-top:1px solid rgba(255,
 @media(max-width:768px){
   nav{padding:0 4vw}
   .nav-center{display:none}
-  #masthead,#manifesto,#model,#fields,#initiative,#about,#partner{padding:5rem 5vw}
+  #masthead,#manifesto,#model,#fields,#initiative,#joir,#about,#partner{padding:5rem 5vw}
   .field-row{grid-template-columns:50px 1fr;gap:1.5rem}
   .field-status{display:none}
   .model-steps{grid-template-columns:1fr}
